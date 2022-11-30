@@ -55,14 +55,14 @@ print new string
 =end
 
 def reverse_sentence(string)
-  words = string.split
-  reverse = '' 
-  words.length.times {reverse << "#{words.pop} "}
+  words = string.split.reverse
+  reverse = words.join(" ")
   p reverse
-  p words
 end
 
 puts reverse_sentence('Hello World') == 'World Hello'
 puts reverse_sentence('Reverse these words') == 'words these Reverse'
 puts reverse_sentence('') == ''
 puts reverse_sentence('    ') == '' # Any number of spaces results in ''
+
+# This is my second go around after some help from the solution last time about a week ago. 
