@@ -17,7 +17,3 @@ puts ">|>|> #{integer1} * #{integer2} = #{product}"
 puts ">|>|> #{integer1} / #{integer2} = #{quotient}"
 puts ">|>|> #{integer1} % #{integer2} = #{modulo}"
 puts ">|>|> #{integer1} ** #{integer2} = #{exponent}"
-
-
-p integer1
-p integer2
