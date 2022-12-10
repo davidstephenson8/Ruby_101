@@ -5,9 +5,7 @@ def dot_separated_ip_address?(input_string)
   end
   while dot_separated_words.size > 0 do
     word = dot_separated_words.pop
-    if is_an_ip_number?(word) == false
-      return false  
-    end
+    false if is_an_ip_number?(word) == false
   end
-  return true
+  true
 end
